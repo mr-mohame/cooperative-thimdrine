@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFBF3;
+    min-height: 100vh
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2C4326;
+    padding: 15px 60px;
+    z-index: 1000;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+header nav a img {
+    height: 40px; 
+    width: auto;  
+    display: block;
+}
+header nav a h2{
+    color: #E0A526;
+    font-size: 1.2rem;
+    margin: 0;
+}
+.nav-list{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+}
+.nav-list a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.active{
+    display: inline-block;
+    background-color: #E0A526;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    border-radius: 50px
+}
+footer{
+    background-color: #2C4326;
+    color: white;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+
+}
+.footer-main{
+    display: flex;
+    max-width: 1280px;
+    margin:0 auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 30px;
+}
+.footer-col h2{
+    color: #E0A526;
+    margin-bottom: 15px;
+    font-size: 1rem;
+
+}
+.footer-col ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-col a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    text-decoration: none;
+}
+.footer-col a h1{
+    color: #E0A526;
+    font-size: 1.2rem;
+    margin: 0;
+
+}
+.footer-col a img{
+    width: 80px;
+    height: auto;
+}
+.footer-col p{
+    color: #FFFFFF;
+    margin-top: 15px;
+    max-width: 280px;
+    line-height: 1.5;
+}
+.footer-bottom{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1rem;
+    
+}
+
