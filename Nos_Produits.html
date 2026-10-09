@@ -10,7 +10,7 @@
     <header>
         <nav>
             <a href="index.html">
-                <img src="logo.svg" alt="Thimdrine - Produits artisanaux marocains">
+                <img src="img/logo.svg" alt="Thimdrine - Produits artisanaux marocains">
                 <h2>Coopérative Thimdrine</h2>
             </a>
             <div class="nav-menu-wrapper">
@@ -23,16 +23,72 @@
             </div>
         </nav>
     </header>
+    <!-- main-->
+     <section class="produit-hero">
+        <div class="produit-content-hero">
+            <h2>NOS PRODUITS</h2>
+            <p class="text">
+                Découvrez notre sélection de produits de qualité.
+            </p>
+        </div>
+        <div class="products-toolbar">
+            <form action="/recherche" method="GET">
+                <input type="search" name="q" placeholder="Rechercher un article..." required>
+                <button type="submit">search 🔍</button>
+            </form>
+        </div>
+        <div class="barr-trier">
+            <label for="sort">Trier par :</label>
+            <select id="sort">
+                <option value="populaarity">Popularite</option>
+                <option value="price-croi">Prix : croissant</option>
+                <option value="price-dec">Prix : décroissant</option>
+            </select>
+        </div>
+        <div class="aside-product">
+            <aside class="filters-sidebar">
+                <h2>Filters</h2>
+                <hr>
 
-    <main style="min-height: 500px;">
-    <!-- Content provisoire -->
+                <div class="group-fil">
+                    <h3>Categories</h3>
+                    <label><input type="checkbox" name="category" value="miel">Miel</label>
+                    <label><input type="checkbox" name="category" value="huile">Huile d'olive</label>
+                    <label><input type="checkbox" name="category" value="confiture">Confiture</label>
+                </div>
+                <hr>
+                <div class="group-fil">
+                    <h3>Prix</h3>
+                    <input type="range" min="0" max="500" class="price-slider">
+                    <div class="price-limite">
+                        <span>0 DH</span>
+                        <span>500 DH</span>
+                    </div>       
+                </div>
+
+
+            </aside>
+        </div>
+        <!--product 1-->
+        <div class="produit">
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="" alt="" loading="lazy">
+                </div>
+
+            </article>
+        </div>
+     </section>
+
+    <main>     
+               
     </main>  
     
      <footer>
         <div class="footer-main">
             <div class="footer-col">
                 <a href="index.html">
-                    <img src="logo.svg" alt="Thimdrine - Produits artisanaux marocains">
+                    <img src="img/logo.svg" alt="Thimdrine - Produits artisanaux marocains">
                     <h1>Coopérative Thimdrine</h1>
                 </a>
                 <p>Coopérative artisanale féminine basée à Nador. Valorisation des produits du terroir du Rif 100% naturels et faits main.</p>
