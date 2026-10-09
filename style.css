@@ -7,7 +7,7 @@
 }
 body{
     background-color: #FFFBF3;
-    min-height: 100vh
+    min-height: 100vh;
 }
 header{
     position: fixed;
@@ -17,7 +17,7 @@ header{
     background-color: #2C4326;
     padding: 15px 60px;
     margin-bottom: 40px;
-    z-index: 1000;
+    z-index: 1;
 }
 nav{
     display: flex;
