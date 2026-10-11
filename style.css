@@ -95,7 +95,7 @@ footer{
     display: flex;
     align-items: center;
     gap: 15px;
-    color: white;
+    color: #F3EAD7;
     text-decoration: none;
 }
 .footer-col a h1{
@@ -305,6 +305,7 @@ footer{
 }
 
 /** css pour produit **/
+
 .produit-hero{
     max-width: 1200px;
     margin: 40px;
