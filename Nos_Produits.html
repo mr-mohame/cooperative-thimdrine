@@ -7,6 +7,8 @@
     <title>cooperative-thimdrine</title>
 </head>
 <body>
+
+    <!-- header-->
     <header>
         <nav>
             <a href="index.html">
@@ -23,67 +25,226 @@
             </div>
         </nav>
     </header>
+
     <!-- main-->
-     <section class="produit-hero">
+    <main> 
+        <section class="produit-hero">
         <div class="produit-content-hero">
             <h2>NOS PRODUITS</h2>
-            <p class="text">
+            <p class="text-pro">
                 Découvrez notre sélection de produits de qualité.
             </p>
         </div>
+     </section>
+     
+     <section class="toolbar">
         <div class="products-toolbar">
             <form action="/recherche" method="GET">
                 <input type="search" name="q" placeholder="Rechercher un article..." required>
                 <button type="submit">search 🔍</button>
             </form>
-        </div>
-        <div class="barr-trier">
-            <label for="sort">Trier par :</label>
-            <select id="sort">
-                <option value="populaarity">Popularite</option>
-                <option value="price-croi">Prix : croissant</option>
-                <option value="price-dec">Prix : décroissant</option>
-            </select>
-        </div>
-        <div class="aside-product">
-            <aside class="filters-sidebar">
-                <h2>Filters</h2>
-                <hr>
 
-                <div class="group-fil">
-                    <h3>Categories</h3>
-                    <label><input type="checkbox" name="category" value="miel">Miel</label>
-                    <label><input type="checkbox" name="category" value="huile">Huile d'olive</label>
-                    <label><input type="checkbox" name="category" value="confiture">Confiture</label>
-                </div>
-                <hr>
-                <div class="group-fil">
-                    <h3>Prix</h3>
-                    <input type="range" min="0" max="500" class="price-slider">
-                    <div class="price-limite">
-                        <span>0 DH</span>
-                        <span>500 DH</span>
-                    </div>       
-                </div>
-
-
-            </aside>
-        </div>
-        <!--product 1-->
-        <div class="produit">
-            <article class="product-card">
-                <div class="product-img">
-                    <img src="" alt="" loading="lazy">
-                </div>
-
-            </article>
+            <div class="barr-trier">
+                <label for="sort">Trier par :</label>
+                <select id="sort">
+                    <option value="populaarity">Popularite</option>
+                    <option value="price-croi">Prix : croissant</option>
+                    <option value="price-dec">Prix : décroissant</option>
+                </select>
+            </div>
         </div>
      </section>
 
-    <main>     
-               
-    </main>  
-    
+    <section class="products-section">
+        <div class="products-grid">
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="img/10.webp" alt="Miel d'Eucalyptus" loading="lazy">
+                </div>
+                <div class="product-info">
+                    <h3>Miel d'Eucalyptus</h3>
+                    <p class="product-description">
+                        100% Miel d'Eucalyptus sauvage (Sans additifs, sans conservateurs, non chauffé).
+                    </p>    
+                    <div class="product-price">
+                        <span class="price">45 DH</span>
+                        <span class="unit">· pot de 350 g</span>
+                    </div>
+                    <a href="miel-eucalyptus.html" class="btn-detail">Voir le produit</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="img/11.webp" alt="Miel de thym" loading="lazy">
+                </div>    
+                <div class="product-info">
+                    <h3>Miel de thym</h3>
+                    <p class="product-description">
+                        Miel de thym pur sauvage récolté à la main par les artisanes de la coopérative Thimdrine Nador.
+                    </p>
+                     <div class="product-price">
+                        <span class="price">180 DH</span>
+                        <span class="unit">· pot de 500 g</span>
+                    </div>
+                    <a href="miel-eucalyptus.html" class="btn-detail">Voir le produit</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="img/12.webp" alt="Miel de Fleur d'Oranger" loading="lazy">
+                </div>    
+                <div class="product-info">
+                    <h3>Miel de Fleur d'Oranger</h3>
+                    <p class="product-description">
+                        Un miel crémeux et floral aux notes douces d'agrumes, récolté à la main dans les vergers de la région du Souss.
+                    </p>
+                    <div class="product-price">
+                        <span class="price">120 DH</span>
+                        <span class="unit">· pot de 500 g</span>
+                    </div>
+                    <a href="miel-eucalyptus.html" class="btn-detail">Voir le produit</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="img/9.webp" alt="Huile Amlou Artisanal du Rif" loading="lazy">
+                </div>    
+                <div class="product-info">
+                    <h3>Huile Amlou Artisanal du Rif</h3>
+                    <p class="product-description">
+                        Amandes douces torréfiées, Huile d'Argan pure, Miel naturel.
+                    </p>
+                    <div class="product-price">
+                        <span class="price">95 DH</span>
+                        <span class="unit">· pot de 1 Liter</span>
+                    </div>
+                    <a href="miel-eucalyptus.html" class="btn-detail">Voir le produit</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="img/9.webp" alt="Huile d'olive extra vierge" loading="lazy">
+                </div>    
+                <div class="product-info">
+                    <h3>Huile d'olive extra vierge</h3>
+                    <p class="product-description">
+                        Extraite à froid lors de la première pression, cette huile d'olive offre une saveur fruitée équilibrée et une texture veloutée.
+                    </p>
+                    <div class="product-price">
+                        <span class="price">85 DH</span>
+                        <span class="unit">· pot de 1 Liter</span>
+                    </div>
+                    <a href="miel-eucalyptus.html" class="btn-detail">Voir le produit</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="img/3.webp" alt="Huile d'olive extra vierge" loading="lazy">
+                </div>    
+                <div class="product-info">
+                    <h3>Huile d'Argan Alimentaire </h3>
+                    <p class="product-description">
+                        Huile d'argan traditionnelle au subtil goût de noisette, idéale pour assaisonner vos salades et plats orientaux.
+                    </p>
+                    <div class="product-price">
+                        <span class="price">180 DH</span>
+                        <span class="unit">· pot de 250 ml</span>
+                    </div>
+                    <a href="miel-eucalyptus.html" class="btn-detail">Voir le produit</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="img/8.webp" alt="Confiture de Figues Artisanale" loading="lazy">
+                </div>    
+                <div class="product-info">
+                    <h3>Confiture de Figues Artisanale </h3>
+                    <p class="product-description">
+                        La figue est reconnue pour faciliter le transit intestinal et apporter du potassium, du calcium et du magnésium.
+                    </p>
+                    <div class="product-price">
+                        <span class="price">28 DH</span>
+                        <span class="unit">· pot de 370 g</span>
+                    </div>
+                    <a href="miel-eucalyptus.html" class="btn-detail">Voir le produit</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="img/5.webp" alt="Confiture d’orange Artisanale" loading="lazy">
+                </div>    
+                <div class="product-info">
+                    <h3>Confiture d’orange Artisanale </h3>
+                    <p class="product-description">
+                        Mariage subtil entre l'amertume des agrumes frais et une pointe de cannelle pour un petit-déjeuner gourmand.
+                    </p>
+                    <div class="product-price">
+                        <span class="price">25 DH</span>
+                        <span class="unit">· pot de 370 g</span>
+                    </div>
+                    <a href="miel-eucalyptus.html" class="btn-detail">Voir le produit</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img">
+                    <img src="img/4.webp" alt="Confiture de Figue" loading="lazy">
+                </div>    
+                <div class="product-info">
+                    <h3>Confiture de Figue </h3>
+                    <p class="product-description">
+                        Préparée selon une recette traditionnelle avec 65 % de fruits frais, sans colorants ni conservateurs artificiels.
+                    </p>
+                    <div class="product-price">
+                        <span class="price">30 DH</span>
+                        <span class="unit">· pot de 370 g</span>
+                    </div>
+                    <a href="miel-eucalyptus.html" class="btn-detail">Voir le produit</a>
+                </div>
+            </article>
+        </div>
+     </section> 
+     
+     <section class="reassurance-section">
+        <div class="reassurance-container">
+            <h3>Reassurance</h3>
+
+            <div class="reassurance-grid">
+                <article class="item">
+                    <div class="icone">
+                        <img src="img/paiement securisé.webp" alt="paiement securisé" loading="lazy">
+                    </div>
+                    <h3>paiement securisé</h3>
+                </article>
+
+                <article class="item">
+                    <div class="icone">
+                        <img src="img/support 24_24.webp" alt="support 24/24" loading="lazy">
+                    </div>
+                    <h3>support 24/24</h3>
+                </article>
+
+                <article class="item">
+                    <div class="icone">
+                        <img src="img/livraison rapide.webp" alt="livraison rapide" loading="lazy">
+                    </div>
+                    <h3>livraison rapide</h3>
+                </article>
+            </div>
+
+        </div>
+
+     </section>
+    </main> 
+
+    <!-- footer--> 
      <footer>
         <div class="footer-main">
             <div class="footer-col">
