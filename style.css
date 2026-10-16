@@ -130,8 +130,8 @@ main {
 /** style hero acceuil**/
 .hero{
     background-color: #FFFFFF;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     gap: 40px;
     align-items: center;
     width: 100%;
@@ -250,8 +250,8 @@ main {
     margin-bottom: 16px;
 }
 .product{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     width: 100%;
 }
@@ -407,8 +407,8 @@ main {
 }
 
 .products-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     width: 100%;
 }
@@ -457,8 +457,8 @@ main {
     display: block;
     text-align: center;
     background-color: #C87D32;
-    color: #FFFFFF !important;
-    text-decoration: none !important;
+    color: #FFFFFF;
+    text-decoration: none ;
     padding: 10px 16px;
     border-radius: 8px;
     font-weight: 600;
@@ -486,8 +486,8 @@ main {
     font-weight: 700;
 }
 .reassurance-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     justify-items: center;
 }
@@ -527,7 +527,7 @@ main {
     background-color: #FAF6EE;
     border: 1px solid #E2DACD;
     border-radius: 16px;
-    padding: 75px;
+    padding: 90px 20px 50px 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
 }
 .story-header {
